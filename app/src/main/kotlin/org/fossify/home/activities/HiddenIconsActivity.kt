@@ -15,6 +15,7 @@ import org.fossify.home.databinding.ActivityHiddenIconsBinding
 import org.fossify.home.extensions.config
 import org.fossify.home.extensions.getDrawableForPackageName
 import org.fossify.home.extensions.hiddenIconsDB
+import org.fossify.home.extensions.launchApp
 import org.fossify.home.models.HiddenIcon
 
 class HiddenIconsActivity : SimpleActivity(), RefreshRecyclerViewListener {
@@ -85,6 +86,7 @@ class HiddenIconsActivity : SimpleActivity(), RefreshRecyclerViewListener {
 
             runOnUiThread {
                 HiddenIconsAdapter(this, hiddenIcons, this, binding.manageHiddenIconsList) {
+                    launchApp((it as HiddenIcon).packageName, it.activityName)
                 }.apply {
                     binding.manageHiddenIconsList.adapter = this
                 }
