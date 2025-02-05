@@ -14,4 +14,7 @@
     <string name="app_drawer_settings">Laci aplikasi</string>
     <string name="widget_too_big">Widget terlalu besar untuk ukuran layar beranda saat ini</string>
     <string name="home_screen_settings">Layar beranda</string>
+    <string name="double_tap_to_lock">Ketuk dua kali untuk mengunci layar</string>
+    <string name="lock_device_admin_warning">Menonaktifkan izin admin akan menonaktifkan fitur ketuk dua kali untuk mengunci layar.</string>
+    <string name="lock_device_admin_hint">Untuk mengaktifkan fitur ketuk dua kali untuk mengunci layar, Anda perlu memberikan izin admin. Perhatikan bahwa aplikasi tidak dapat dihapus sampai izin ini dicabut.</string>
 </resources>

@@ -9,5 +9,11 @@
     <string name="add_hidden_icons">הוסף אייקונים נסתרים</string>
     <string name="manage_hidden_icons">ניהול אייקונים נסתרים</string>
     <string name="hidden_icons">אייקונים נסתרים</string>
-    <string name="hidden_icons_placeholder">חלק מהאפליקציות לא ניתנות להסרה עקב הגבלות מערכת, לפחות אתה יכול להחביא את האייקונים כדי לא לראותם במסך הבית.</string>
+    <string name="hidden_icons_placeholder">לא ניתן להסיר אפליקציות מסוימות עקב מגבלות מערכת, אבל אתה יכול לפחות להסתיר את הסמלים שלהן כדי להימנע מלראות אותם.</string>
+    <string name="close_app_drawer_on_app_open">סגור את מגירת האפליקציות בעת פתיחת אפליקציה</string>
+    <string name="home_screen_settings">מסך בית</string>
+    <string name="double_tap_to_lock">הקש פעמיים כדי לנעול את המסך</string>
+    <string name="lock_device_admin_hint">כדי להפעיל הקשה כפולה לנעילת מסך, עליך להעניק הרשאת מנהל. שימו לב שלא ניתן להסיר את האפליקציה עד להסרת ההרשאה הזו.</string>
+    <string name="lock_device_admin_warning">ביטול הרשאת מנהל ישבית את אפשרות ההקשה הכפולה לנעילת מסך.</string>
+    <string name="app_drawer_settings">מגירת אפליקציות</string>
 </resources>
